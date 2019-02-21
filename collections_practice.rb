@@ -33,6 +33,7 @@ end
 
 def remove_non_strings(array)
   array.delete_if {|x| !(x.is_a? String)}
+<<<<<<< HEAD
 end
 
 def count_elements(array)
@@ -58,4 +59,6 @@ def organize_schools(schools)
      end
    end
    schools_by_location
+=======
+>>>>>>> e80418b0a1156e920635a7d8fbc6ea2dace013ab
 end
